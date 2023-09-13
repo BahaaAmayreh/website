@@ -1,0 +1,278 @@
+* {
+    background-color: rgb(234, 236, 236);
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 810px;
+    margin: auto;
+}
+
+.headerpage {
+    border-color: green;
+    border-style: double;
+    border-width: thin;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.4em;
+    max-width: 800px;
+    box-shadow: 5px 5px 5px 5px #777777;
+    border-radius: 20px 20px 0px 0px;
+    margin-left: 10px;
+}
+
+.divbody {
+    border-color: green;
+    border-style: double;
+    border-width: thin;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.4em;
+    max-width: 800px;
+    box-shadow: 5px 5px 5px 5px #777777;
+    margin-left: 10px;
+    padding-top: 15px;
+}
+
+.footerpage {
+    border-color: green;
+    border-style: double;
+    border-width: thin;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.4em;
+    max-width: 800px;
+    box-shadow: 5px 5px 5px 5px #777777;
+    border-radius: 0px 0px 20px 20px;
+    margin-left: 10px;
+
+}
+
+hr {
+    border-color: rgb(2, 112, 13);
+    border-width: 2px;
+}
+
+div>p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding-left: 5px;
+    padding-right: 8px;
+    text-indent: 20px;
+    text-align: justify;
+}
+
+div>address {
+    padding-left: 12px;
+}
+
+.style1 {
+    background-color: bisque;
+    color: red;
+    font-weight: normal;
+    font-style: italic;
+}
+
+#baha {
+    background-color: azure;
+    color: rgb(209, 4, 32);
+}
+
+#myimage {
+    background-image: url("images/baha.jpg");
+    height: 350px;
+    width: 255px;
+    background-repeat: repeat;
+    margin-left: 20px;
+}
+
+div>ul>li {
+    color: rgb(5, 5, 5);
+    list-style-type: square;
+    list-style-position: outside;
+}
+
+img {
+    float: left;
+    padding-right: 6px;
+}
+
+a:link {
+    color: rgb(94, 20, 255);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(8, 194, 98);
+}
+
+a:hover {
+    color: rgb(14, 53, 212);
+    text-decoration: underline;
+}
+
+a:active {
+    color: darkcyan;
+}
+
+strong:hover {
+    background-color: rgb(229, 245, 4);
+}
+
+li:hover {
+    color: rgb(2, 112, 13);
+}
+
+#baha_image {
+    border-radius: 18px;
+    height: 350px;
+    width: 280px;
+}
+
+#baha_image2 {
+    border-radius: 18px;
+    height: auto;
+    margin: 25px;
+    margin-bottom: 30px;
+    max-width: 80%;
+    max-width: 80%;
+    box-sizing: border-box;
+}
+
+.menu>li {
+    display: inline;
+    padding-left: 8px;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
+.h1eduction {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.courses {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: 30px;
+
+}
+
+.courses tr:nth-child(even) {
+    color: #0356a9;
+}
+
+.courses tr:hover {
+    color: #08dd7d;
+}
+
+.courses td,
+.courses th {
+    border: 1px solid #ddd;
+    padding: 2px;
+
+}
+
+.courses th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+    text-align: center;
+}
+
+.courses td:first-child {
+    text-align: center;
+}
+
+.courses td:last-child {
+    text-align: center;
+}
+
+.courses tr:last-child {
+    text-align: center;
+}
+
+blockquote {
+    width: 275px;
+    font-size: 130%;
+    font-style: italic;
+    font-family: Georgia, Times, serif;
+    margin: 0px 0px 10px 10px;
+    padding: 10px;
+    border-top: 1px solid #665544;
+    border-bottom: 1px solid #665544;
+    height: auto;
+}
+
+.columns {
+    column-count: 2;
+    column-gap: 20px;
+    column-rule: 2px dotted green;
+    padding: 10px;
+}
+
+.professional-summary {
+    text-align: justify;
+    text-indent: 20px;
+    line-height: normal;
+}
+
+.experience {
+    line-height: normal;
+}
+
+.education {
+    line-height: normal;
+}
+
+.skills {
+    line-height: normal;
+}
+
+.certifications {
+    line-height: normal;
+}
+
+input {
+    width: 85%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    width: 90%;
+    resize: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+form {
+    margin: 10px;
+    padding: auto;
+}
